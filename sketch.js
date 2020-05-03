@@ -57,7 +57,7 @@ function setup() {
 
   button = createButton("Dava Visualization");
   button.position(bx1, by1);
-  button.size(buttonW,30);
+  button.size(buttonW,50);
   button.style("font-family","Poppins");
   button.style("background-color","#ffbf00");
   button.style("border-radius","5px");
@@ -67,7 +67,7 @@ function setup() {
 
   button = createButton("Graphic Design");
   button.position(bx2, by2);
-  button.size(buttonW,30);
+  button.size(buttonW,50);
   button.style("font-family","Poppins");
   button.style("background-color","#ffbf00");
   button.style("border-radius","5px");
@@ -77,7 +77,7 @@ function setup() {
 
   button = createButton("Installation");
   button.position(bx3, by3);
-  button.size(buttonW,30);
+  button.size(buttonW,50);
   button.style("font-family","Poppins");
   button.style("background-color","#ffbf00");
   button.style("border-radius","5px");
@@ -87,7 +87,7 @@ function setup() {
 
   button = createButton("UX Design");
   button.position(bx4, by4);
-  button.size(buttonW,30);
+  button.size(buttonW,50);
   button.style("font-family","Poppins");
   button.style("background-color","#ffbf00");
   button.style("border-radius","5px");
