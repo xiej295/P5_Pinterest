@@ -18,7 +18,7 @@ let bx4;
 let by4;
 
 function preload() {
-  img2 = loadImage('outline_2.png');
+  img2 = loadImage('outline_3.png');
   for (var i=0; i<65; i++) {
     img[i] = loadImage("img"+i+".jpg");
   }
