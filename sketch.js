@@ -26,11 +26,11 @@ function preload() {
 
 function setup() {
   // createCanvas(windowWidth, windowHeight);
-  createCanvas(730, 824);
+  createCanvas(730, 900);
   background(ffffff);
   noCursor();
 
-  if(windowWidth >= 750){
+  if(windowWidth >= 700){
   w = windowWidth/4;
   buttonW = (w-20)/2;
   bx1 = 50;
@@ -42,7 +42,7 @@ function setup() {
   bx4 = 650;
   by4 = 30;
   }
-  if(windowWidth < 750){
+  if(windowWidth < 700){
   w = windowWidth/2;
   buttonW = (w-10)/2;
   bx1 = 50;
