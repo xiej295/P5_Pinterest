@@ -27,7 +27,7 @@ function preload() {
 function setup() {
   // createCanvas(windowWidth, windowHeight);
   createCanvas(730, 824);
-  background(0);
+  background(ffffff);
   noCursor();
 
   if(windowWidth >= 750){
