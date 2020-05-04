@@ -1,5 +1,5 @@
 var img = [];
-// var img2;
+var img2;
 let button;
 let number;
 let k;
@@ -18,14 +18,15 @@ let bx4;
 let by4;
 
 function preload() {
-  // img2 = loadImage('JiawenXie.png');
+  img2 = loadImage('pinterest.png');
   for (var i=0; i<65; i++) {
     img[i] = loadImage("img"+i+".jpg");
   }
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+  createCanvas(730, 824);
   background(0);
   noCursor();
 
@@ -119,6 +120,7 @@ function UX(){
 
 
 function draw() {
+  image(img2, 0, 150, 730, 674)
   if(mouseIsPressed === true){
     if(mouseY > 100){
     if(k==1){
