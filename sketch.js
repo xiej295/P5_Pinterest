@@ -120,7 +120,7 @@ function UX(){
 
 
 function draw() {
-  image(img2, 0, 70, 730, 674)
+  image(img2, 0, 80, 730, 674)
   if(mouseIsPressed === true){
     if(mouseY > 100){
     if(k==1){
