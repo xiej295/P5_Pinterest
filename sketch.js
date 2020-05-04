@@ -122,7 +122,7 @@ function UX(){
 function draw() {
   image(img2, 1000, 0, 360, 900)
   if(mouseIsPressed === true){
-    if(mouseY > 100){
+    if(mouseY > 0){
     if(k==1){
       let number = random([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]);
     image(img[number], mouseX, mouseY, 20, img[number].height*20/img[number].width);
