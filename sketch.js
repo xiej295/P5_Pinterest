@@ -18,7 +18,7 @@ let bx4;
 let by4;
 
 function preload() {
-  img2 = loadImage('outline_1.png');
+  img2 = loadImage('outline_5.png');
   for (var i=0; i<65; i++) {
     img[i] = loadImage("img"+i+".jpg");
   }
@@ -30,7 +30,7 @@ function setup() {
   background(color(255, 255, 255));
   noCursor();
 
-  if(windowWidth >= 2000){
+  if(windowWidth >= 500){
   w = windowWidth/4;
   buttonW = (w-20)/2;
   bx1 = 50;
@@ -42,7 +42,7 @@ function setup() {
   bx4 = 650;
   by4 = 30;
   }
-  if(windowWidth < 2000){
+  if(windowWidth < 500){
   w = windowWidth/2;
   buttonW = (w-10)/2;
   bx1 = 50;
@@ -120,7 +120,7 @@ function UX(){
 
 
 function draw() {
-  image(img2, 1000, 0, 360, 900)
+  image(img2, 0, 80, 1422, 800)
   if(mouseIsPressed === true){
     if(mouseY > 0){
     if(k==1){
