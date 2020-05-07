@@ -19,7 +19,7 @@ let by4;
 
 function preload() {
   img2 = loadImage('outline_1.png');
-  for (var i=0; i<65; i++) {
+  for (var i=0; i<75; i++) {
     img[i] = loadImage("img"+i+".jpg");
   }
 }
