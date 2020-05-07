@@ -136,7 +136,7 @@ function draw() {
     image(img[number], mouseX, mouseY, 20, img[number].height*20/img[number].width);
     }
     if(k==4){
-      let number = random([50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]);
+      let number = random([65, 66, 67, 68, 69, 70, 71, 72, 73, 74]);
     image(img[number], mouseX, mouseY, 20, img[number].height*20/img[number].width);
     }
   }
